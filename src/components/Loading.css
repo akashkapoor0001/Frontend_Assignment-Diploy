@@ -1,0 +1,70 @@
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* or any other background color */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure it's above all content */
+}
+
+.loading-content {
+    text-align: center;
+}
+
+.loading-logo {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 10px; /* Reduce bottom margin to bring dots closer */
+}
+
+.loading-dots {
+    display: flex; /* Ensure dots are in a row */
+    justify-content: center; /* Center the dots */
+}
+
+.loading-dots span {
+    display: inline-block;
+    font-size: 24px;
+    animation: blink 1.4s infinite both;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.dot {
+    width: 15px; /* Increase the size */
+    height: 15px; /* Increase the size */
+    background-color: #B0B0B0; /* Light grey for inactive dots */
+    border-radius: 50%;
+    margin: 0 3px; /* Adjust margin between dots if needed */
+    animation: bounce 0.6s infinite alternate;
+}
+
+/* Bounce animation to shift background-color for active dot */
+@keyframes bounce {
+    0% {
+        background-color: #B0B0B0; /* Light grey for inactive */
+        transform: translateY(0);
+    }
+    100% {
+        background-color: #7D7D7D; /* Darker grey for active */
+        transform: translateY(-10px); /* Slight upward bounce */
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
