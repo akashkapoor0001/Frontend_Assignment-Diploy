@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
+import React from 'react';
 import './style.css';
 import image from "../components/images/money.avif"
 const Footertop = () => {

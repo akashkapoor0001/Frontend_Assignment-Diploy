@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <div className='Foot'>
                 <div>
-                    <img className='logo-p' src={logo}></img>
+                    <img className='logo-p' src={logo} alt=''></img>
                 </div>
                 <div>
                     <ul style={{ display: "flex", gap: "15px" }}>

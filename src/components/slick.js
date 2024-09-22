@@ -1,9 +1,11 @@
+import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import test1 from "../components/images/test1.png"
-import test2 from "../components/images/test2.png"
-import test3 from "../components/images/test3.png"
+import test1 from "../components/images/test1.png";
+import test2 from "../components/images/test2.png";
+import test3 from "../components/images/test3.png";
+
 const Slick = () => {
   const settings = {
     dots: true,
@@ -45,7 +47,6 @@ const Slick = () => {
   return (
     <div className="slick-div" style={{ backgroundColor: " #F7F7F7", paddingLeft: "150px", marginTop: "-150px", padding: "100px" }}>
       <Slider {...settings}>
-
         <div className="testimonial-card">
           <div style={{ display: "flex", justifyContent: "start", gap: "5%" }}>
             <div>
@@ -53,7 +54,7 @@ const Slick = () => {
             </div>
             <div>
               <h2 className="slick-h2">Robert A. Voltaire</h2>
-              <a href="#" className="store-link">Store link</a>
+              <button className="store-link">Store link</button>
               <div className="stars">⭐⭐⭐⭐⭐</div>
             </div>
           </div>
@@ -69,7 +70,7 @@ const Slick = () => {
             </div>
             <div>
               <h2 className="slick-h2">Quinten Barney</h2>
-              <a href="#" className="store-link">Etsy Merchant</a>
+              <button className="store-link">Etsy Merchant</button>
               <div className="stars">⭐⭐⭐⭐⭐</div>
             </div>
           </div>
@@ -77,6 +78,7 @@ const Slick = () => {
             We chose Printify because of their offerings as well as their incredibly low prices. After several years, we've come to find that their customer service is also top-notch, and their platform just keeps getting better and better.
           </p>
         </div>
+
         <div className="testimonial-card">
           <div style={{ display: "flex", justifyContent: "start", gap: "5%" }}>
             <div>
@@ -84,7 +86,7 @@ const Slick = () => {
             </div>
             <div>
               <h2 className="slick-h2">Brandan Nikki</h2>
-              <a href="#" className="store-link">Store link</a>
+              <button className="store-link">Store link</button>
               <div className="stars">⭐⭐⭐⭐⭐</div>
             </div>
           </div>
@@ -92,6 +94,7 @@ const Slick = () => {
             Printify has been an amazing platform as we grow our business. From the custom designs we can make for our customers to the great customer service team, the whole process is a breeze!
           </p>
         </div>
+
         <div className="testimonial-card">
           <div style={{ display: "flex", justifyContent: "start", gap: "5%" }}>
             <div>
@@ -99,7 +102,7 @@ const Slick = () => {
             </div>
             <div>
               <h2 className="slick-h2">Barney Nikki</h2>
-              <a href="#" className="store-link">Store link</a>
+              <button className="store-link">Store link</button>
               <div className="stars">⭐⭐⭐⭐⭐</div>
             </div>
           </div>

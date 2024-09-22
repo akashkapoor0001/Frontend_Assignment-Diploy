@@ -5,7 +5,7 @@ const Designlines = () => {
         <div>
             <section>
                 <div style={{ marginTop: "10%" }}>
-                    <img className='design-img' src={pic} alt='image' />
+                    <img className='design-img' src={pic} alt='' />
                 </div>
             </section>
         </div>
