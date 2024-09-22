@@ -1,5 +1,3 @@
-// src/components/Loading.js
-
 import React from 'react';
 import './Loading.css'; // You'll need this for styles
 import image from './images/printify.png';

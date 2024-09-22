@@ -11,7 +11,7 @@ const About = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 1500); // Loading time set to 1 second
+        }, 1000); // Loading time set to 1 second
         return () => clearTimeout(timer);
     }, []);
 
