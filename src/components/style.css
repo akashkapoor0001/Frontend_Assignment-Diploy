@@ -1074,3 +1074,28 @@ h6 {
 .all-products {
   margin-left: -365px;
 }
+
+.end-footer {
+  background-color: #f7f7f7; /* Light grey background */
+  padding: 30px; /* Add some padding */
+  text-align: center; /* Center the text */
+}
+
+.footer-links {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the links */
+  gap: 20px; /* Space between links */
+  font-size: 12px; /* Small font size */
+  margin-bottom: 10px; /* Space between links and copyright */
+}
+
+.end-footer p {
+  margin: 0; /* Remove default margin */
+  color: #9e9d9d; /* Darker text color for better contrast */
+}
+
+.copyright-text {
+  font-size: 6px; /* Small font size */
+  color: #3d3434; /* Darker text color for better contrast */
+}
+

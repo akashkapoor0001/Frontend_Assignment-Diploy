@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../components/images/logo.svg"
+import './style.css'
 const Footer = () => {
     return (
         <>
@@ -116,6 +117,18 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <div className='end-footer'>
+                <div className='footer-links'>
+                    <p>Intellectual Property Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                    <p>Security</p>
+                </div>
+                <div className='copyright-text'>
+                    <h1>© 2024 Printify, Inc. All rights reserved.</h1>
+                </div>
+            </div>
+
         </>
     )
 }
